@@ -65,7 +65,7 @@ export default function Bytes() {
         >
           {/* Hex code */}
           <span className="text-white font-bold text-2xl drop-shadow-lg mb-3">
-            {cor.hex}
+            {cor?.hex}
           </span>
 
           {/* Buttons container */}
@@ -92,6 +92,7 @@ export default function Bytes() {
                 alt="Copy"
                 className="w-12 h-12"
               />
+              
             </button>
 
             {/* Remove button */}
